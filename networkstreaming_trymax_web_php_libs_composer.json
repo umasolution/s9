@@ -1,0 +1,31 @@
+{
+	"name": "bomgar/portal",
+	"description": "Bomgar Trymax Public portal",
+	"repositories": [
+		{
+			"packagist": false
+		},
+		{
+			"type": "vcs",
+			"url": "ssh://git@git.bt3ng.com:7999/try/php-saml.git"
+		},
+		{
+			"type": "vcs",
+			"url": "ssh://git@git.bt3ng.com:7999/try/bulletphp.git"
+		},
+		{
+			"type": "vcs",
+			"url": "ssh://git.bt3ng.com:7999/try/user-agent-detector.git"
+		},
+		{
+			"type": "composer",
+			"url": "https://satis.bomgar.com"
+		}
+	],
+	"require": {
+		"bomgar/user-agent-detector": "dev-master",
+		"onelogin/php-saml": "dev-3.4.1-bg",
+		"vlucas/bulletphp": "dev-1.2.3-bg",
+		"smarty/smarty": "~4.3.1"
+	}
+}
